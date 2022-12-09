@@ -30,7 +30,7 @@ The data that we transformed was GDP, Inflation, Unemployment rate, and Emission
 
 Load
 Our final merged table displays 50 rows, 25 for China and 25 for the USA. The Columns consist of Countries, indicators, and years. The table was merged on the indicator code. For each indicator code, it displays China and USA in 2 rows, making it easier to compare the change in data over time. With it displayed in this manner, it makes it easier to manipulate the table to find the economic data and trends in China and USA.
- 
+![alt text](https://github.com/boravula/Project-2-Group-12/blob/main/merged_data.csv)
  
 Improvements for the Future
 Some improvements we could make on this would be the ability to filter which years we’d like to view. For some data, there are a lot of null values. We could also have merged other indicator codes.
