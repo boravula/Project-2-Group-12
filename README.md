@@ -38,5 +38,9 @@ Bonus charts(not in Jupyter notebook)
 Graphs based on Final Data
 Based on the China Emissions vs. GDP we found that as the GDP increases, the emissions increase, which means China’s GDP growth is coupling with emissions. The Phillips Curve is an economic theory that inflation and unemployment have a stable and inverse relationship. For our estimate on Phillips Curve, China and the US both have negative slope which means Phillips Curve theory applied successfully.  
 Based on the China Emissions vs. GDP we found that as the GDP increase 
- 
+![alt text](https://github.com/boravula/Project-2-Group-12/blob/main/images/image.png)
+![alt text](https://github.com/boravula/Project-2-Group-12/blob/main/images/image_1.png)
+![alt text](https://github.com/boravula/Project-2-Group-12/blob/main/images/image%20_2.png)
+![alt text](https://github.com/boravula/Project-2-Group-12/blob/main/images/image_3.png)
+
  
