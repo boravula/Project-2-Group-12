@@ -21,6 +21,7 @@ The original data source was found on data.worldbank.org. This website gives dat
 
 ![alt text](http://url/to/china_data.png.url)
 
+
 Transform
 The data that we transformed was GDP, Inflation, Unemployment rate, and Emissions. We cleaned this data by finding the rows that we needed, putting them in a list, and then forming a dataframe with those rows. Then we dropped the columns we didn’t need because we only wanted information from 1990-2021. We used PgAdmin to create the tables that we wanted to insert our data frames into. Then we used jupyter to put the dataframe information into those tables. We used SQL to join those tables based on their indicator code for our final table
  
