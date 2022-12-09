@@ -25,11 +25,12 @@ The original data source was found on data.worldbank.org. This website gives dat
 
 Transform
 The data that we transformed was GDP, Inflation, Unemployment rate, and Emissions. We cleaned this data by finding the rows that we needed, putting them in a list, and then forming a dataframe with those rows. Then we dropped the columns we didn’t need because we only wanted information from 1990-2021. We used PgAdmin to create the tables that we wanted to insert our data frames into. Then we used jupyter to put the dataframe information into those tables. We used SQL to join those tables based on their indicator code for our final table
- 
+ ![alt text](https://github.com/boravula/Project-2-Group-12/blob/main/images/sql_transformation.png)
 
 
 Load
 Our final merged table displays 50 rows, 25 for China and 25 for the USA. The Columns consist of Countries, indicators, and years. The table was merged on the indicator code. For each indicator code, it displays China and USA in 2 rows, making it easier to compare the change in data over time. With it displayed in this manner, it makes it easier to manipulate the table to find the economic data and trends in China and USA.
+ 
  
 Improvements for the Future
 Some improvements we could make on this would be the ability to filter which years we’d like to view. For some data, there are a lot of null values. We could also have merged other indicator codes.
