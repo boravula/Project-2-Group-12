@@ -19,6 +19,9 @@ Data source: https://data.worldbank.org/
 
 The original data source was found on data.worldbank.org. This website gives data of many countries and the data relating to its economy with some countries' data going as far back as 1960.  From there we downloaded the csv’s for China and USA specifically. The csv’s are organized with countries, indicators, and years as the columns. The rows are organized by each indicator per row, giving over 1000 rows. 
 
+![alt text](https://files.slack.com/files-pri/T03Q4GYENE9-F04F5DXHPNC/china_data.png)
+
+
 Transform
 The data that we transformed was GDP, Inflation, Unemployment rate, and Emissions. We cleaned this data by finding the rows that we needed, putting them in a list, and then forming a dataframe with those rows. Then we dropped the columns we didn’t need because we only wanted information from 1990-2021. We used PgAdmin to create the tables that we wanted to insert our data frames into. Then we used jupyter to put the dataframe information into those tables. We used SQL to join those tables based on their indicator code for our final table
  
